@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "declaration": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "lib": [
+      "es2015"
+    ],
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
