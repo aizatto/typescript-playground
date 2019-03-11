@@ -3,4 +3,4 @@ const routes = {
 }
 
 console.log(routes.homepage);
-//console.log(routes.doesNotExist);
+// console.log(routes.doesNotExist);

@@ -8,7 +8,7 @@ const EXPORT_DIR = 'dist';
 
 const tsconfigJson = fs.readFileSync('tsconfig.json').toString();
 const hash = md5(tsconfigJson);
-const target = JSON.parse(tsconfigJson).compilerOptions.target;
+const {target} = JSON.parse(tsconfigJson).compilerOptions;
 
 glob.sync('build/**/*.{js,jsx,map,d.ts}').map((file) => {
   const extname = path.extname(file);
