@@ -1,5 +1,7 @@
 # typescript-playground
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/aizatto/typescript-playground.svg)](https://greenkeeper.io/)
+
 I think what would be interesting would have the JS files created with different outputs
 
 For example the typescript file `test-async-main.ts` would generate several versions of the files:
